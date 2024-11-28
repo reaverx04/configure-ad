@@ -36,20 +36,44 @@ Log in to the DC-1 server and proceed to install Active Directory Domain Service
 <img src="https://i.imgur.com/cSM5mof.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 
+<p>
+<img src="https://i.imgur.com/O7mtrmv.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
 
+<p>
+<img src="https://i.imgur.com/u6PhgYH.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
 
+Promote the server to a Domain Controller and set up a new forest with the domain name 'mydomain.com' (or any name you choose, just make sure to remember it).
 
+<p>
+<img src="https://i.imgur.com/lk5mi3h.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
 
+<p>
+<img src="https://i.imgur.com/NCmf6CC.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
 
+<p>
+<img src="https://i.imgur.com/oIdMlpT.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
 
+<p>
+<img src="https://i.imgur.com/BU0rvrB.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
 
+<p>
+<img src="https://i.imgur.com/GgWMCVI.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
 
+<p>
+<img src="https://i.imgur.com/jRNk1MW.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
 
+Restart and then log back into DC-1 as user: mydomain.com\labuser
 
-
-
-
-
-
+<p>
+<img src="https://i.imgur.com/hx0Lwjn.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
 
 
