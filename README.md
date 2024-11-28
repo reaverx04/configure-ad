@@ -102,3 +102,32 @@ Add the 'jane_admin' account to the 'Domain Admins' Security Group to grant admi
 <p>
 <img src="https://i.imgur.com/XI4WaKe.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
+
+Join Client-1 to your domain (mydomain.com) by adding it to the domain through the system settings. In the Azure Portal, ensure that Client-1’s DNS settings are configured to use the Domain Controller’s private IP address (this step should already be completed). After verifying the DNS settings, restart Client-1 from the Azure Portal to apply the changes and ensure proper domain connectivity.
+
+
+<p>
+<img src="https://i.imgur.com/UtfZkJl.png" height="60%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/1uDbuxw.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+
+<img src="https://i.imgur.com/KACFOrl.png" height="40%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+
+Log in to Client-1 using the original local admin account (labuser). Once logged in, go to the system settings and join Client-1 to the domain (mydomain.com). After the domain join process is complete, the computer will automatically restart to apply the changes
+
+<img src="https://i.imgur.com/sJ1rQhJ.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+
+<img src="https://i.imgur.com/NBRiXOZ.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+
+<img src="https://i.imgur.com/W6p5GPn.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+</p>
+
+Log in to the Domain Controller (DC-1) and open Active Directory Users and Computers (ADUC). Verify that Client-1 now appears in the list of computers within the domain. This confirms that the machine has successfully joined the domain and is visible in Active Directory
+
+<img src="https://i.imgur.com/YUPRxSX.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
