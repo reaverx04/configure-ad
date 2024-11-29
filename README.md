@@ -24,7 +24,7 @@ This tutorial covers how to manage Group Policy in Active Directory, focusing on
 - Step 2 - Create a Domain Admin user within the domain 
 - Step 3 - Join Client-1 to your domain (mydomain.com)
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Setup and Configuration Procedures</h2>
 
 Log in to the DC-1 server and proceed to install Active Directory Domain Services. Follow the prompts to complete the installation and configure the necessary settings.
 
